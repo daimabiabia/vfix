@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# 便携二进制（自行下载放入，不入库）
+ffmpeg.exe
+ffprobe.exe
+bin/
+
+# 测试与产物
+testout*/
+修复输出/
+*.log
+*.raw
+# 便携二进制（含DLL，自行下载或按README构建）
+便携版/
+# 历史中间产物
+历史中间产物/
+out_v14*/
+*.dll
